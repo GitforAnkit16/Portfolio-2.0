@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankit's Portfolio</title>
+  <link  rel = "stylesheet" href = "./styles.css"/>
+</head>
+<body>
+   <div id="main">
+      <div id="loader">
+        <div id="topheading">
+          <h5 class = "reveal">My Portfolio</h5>
+          <h5 class="reveal">&copy;2023</h5>
+        </div>
+        <h1 class="reveal"><span>Ankit </span> <span>Panda</span> </h1>
+      </div>
+      <div id="green"></div>
+      <div id="home">
+        <div id="blob">
+        </div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div id="nav">
+          <a class = "nav-heading" href="#">Ankit Panda</a>
+          <div class = "right">
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#project" onclick="closemenu()">Project</a></li>
+                <li><a href="#page4" onclick="closemenu()">Skills and Services</a></li>
+                <li><a href="#about" onclick="closemenu()">About</a></li>
+                <li><a href="#contacts" onclick="closemenu()">Contact Me</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()" val="true"></i>
+        </div>      
+        </div>      
+        <div class="wrapper">
+          <h1>I m a</h1>
+          <h1><span class="auto-type"></span></h1>
+        </div> 
+        <div id="project" class="hidden">
+            <h1>Projects</h1>
+            <div class="images">
+                <div class="cnt cnt1" >
+                  <img  data-index = "0"  src = "./images/portfolio..png" />
+                  <div class="project-link">
+                    <a href = ""><span>PORTFOLIO</span><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                  </div>
+                </div>
+                <div class="cnt cnt2 " >
+                  <img data-index= "0" src = "./images/Dice.png" />
+                  <div class="project-link">
+                    <a href = "https://gitforankit16.github.io/Roll-The-DIce/"><span>DICE ROLL</span><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                  </div>
+                </div>
+            </div>
+            <div class="images">
+              <div class="cnt cnt1" >
+                <img data-index="0" src = "./images/Drum.png" />
+                <div class="project-link">
+                  <a href = "https://gitforankit16.github.io/Drum-Rolls/"><span>DRUM ROLL</span><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                </div>
+              </div>
+              <div class="cnt cnt2 " >
+                <img data-index="0"  src = "./images/Simon.png" />
+                <div class="project-link">
+                  <a href = "https://gitforankit16.github.io/Simon_Game/"><span>SIMON APP </span><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                </div>
+              </div>
+          </div>
+          <div id="cursor">
+            <div>
+              <div class="crow">
+                  <div class="ccircle"></div>
+                  <div class="ccaapsule">My Projects</div>
+              </div>
+              <div id="elem">
+                <img src="./images/Portfolioproject.png">
+                <img src="./images/DiceGame.png">
+                <img src = "./images/DrumRoll.png">
+                <img src = "./images/Simonproject.png">
+              </div>
+            </div>
+          </div>
+        </div>    
+        <div id="page4" class="hidden">
+          <h1 class="skills-heading">Skills and Sevices</h1>
+          <div class="elem">
+            <img src = "./images/Html.png">
+            <div class="text-div">
+              <h1>Front End</h1>
+              <h1>Front End</h1>
+            </div>
+            <img src = "images/Css.png" >
+          </div>
+          <div class="elem">
+            <img src = "./images/MERN.png" >
+            <div class="text-div">
+              <h1>Back End </h1>
+              <h1>Back End</h1>
+            </div>
+            <img src = "./images/MEAN.png" >
+          </div>
+           <div class="elem">
+            <img src = "./images/REACT.png" >
+            <div class="text-div">
+              <h1>App Dev </h1>
+              <h1>App Dev</h1>
+            </div>
+            <img src = "./images/FLUTTER.png" >
+          </div>
+        </div>
+        <div id="about" class="hidden">
+            <h1>About ME </h1>
+            <div class="cont">
+              <input type="radio" name="slider" class="d-none" id="s1" checked>
+              <input type="radio" name="slider" class="d-none" id="s2">
+              <input type="radio" name="slider" class="d-none" id="s3">
+              <input type="radio" name="slider" class="d-none" id="s4">
+              <input type="radio" name="slider" class="d-none" id="s5">
+              <div class="cards">
+                <label for="s1" id="slide1">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/Profile.jpeg" alt="">
+                      <div class="dots">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">Ankit Panda</span>
+                      <span class="lorem">I'm Ankit Panda, a dedicated B.Tech student majoring in Electrical Engineering at OUTR Bbsr. As a fervent tech enthusiast, I'm currently immersed in the world of web development.</span>              
+                      </div>
+                  </div>
+                </label>
+                <label for="s2" id="slide2">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/Education.png" alt="">
+                      <div class="dots">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">Education</span>
+                      <span class="lorem">
+                        <li><span>OUTR</span>BTECH EE 2026</li>
+                        <li><span>ST XAVIERS</span> 2019-2021 94.6%</li>
+                        <li><span>BSHS</span>2010-2019 92.5%</li>
+                      </span>
+                    </div>
+                  </div>
+                </label>
+                <label for="s3" id="slide3">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/Skills.png" alt="">
+                      <div class="dots">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">Skills</span>
+                      <span class="lorem"> 
+                        <ul>
+                          <li><span>Web Designing Interfaces</li>
+                          <li><span>HTML AND CSS</li>
+                          <li><span>JAVASCRIPT</li>
+                            <li><span>MERN</li>  
+                      </ul>   
+                  </span>
+                    </div>
+                  </div>
+                </label>
+                <label for="s4" id="slide4">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/Experience.png" alt="">
+                      <div class="dots">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">Experience</span>
+                      <span class="lorem">
+                        <ul>
+                          <li><span>SMART ODISHA HACKATHON</span>Participation Only</li>
+                          <li><span>Smart India HACKATHON</span>Cleared Internal HACKATHON</li>
+                          <li><span>HackOdisha</span>Participation Only</li>
+                      </ul>
+                      </span>
+                    </div>
+                  </div>
+                </label>
+                <label for="s5" id="slide5">
+                  <div class="card">
+                    <div class="image">
+                      <img src="./images/Achievement.png" alt="">
+                      <div class="dots">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">Achievement</span>
+                      <span class="lorem">
+                        <ul>
+                          <li><span>CP Rush Winner</li>  
+                          <li><span>Leetcode 200 Questions</li>
+                          <li><span>Codeched 2 star</li>
+                          <li><span>CodeKaze under 10k</li> 
+                      </ul>   
+                      </span>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+        </div>
+        <div id = "contacts" class="hidden">
+              <h1 class="subTitle">Contact Me</h1>
+              <div class="rows">
+                  <div class="contact-left">
+                     <h3>GET IN TOUCH</h3>
+                      <p><i class="fa-solid fa-paper-plane"></i>ankitpanda1612@gmail.com</p>
+                      <p><i class="fa-solid fa-phone"></i>7077930667</p>
+                      <div class="social-icons">
+                          <a href="https://www.instagram.com/ankit_the_invader/"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="https://www.linkedin.com/in/ankit-panda-367229257/"><i class="fa-brands fa-linkedin"></i></a>
+                          <a href="https://www.facebook.com/ansuman.panda.739"><i class="fa-brands fa-facebook"></i></a>
+                          <a href="https://twitter.com/ankit16122002"><i class="fa-brands fa-twitter"></i></a>
+                      </div>
+                      <a href="./images/first resume.pdf" download class="btn">Download CV</a>
+                  </div>
+                  <div class="contact-right">
+                    <h2>Any Queries feel free to address</h2>
+                      <form name = 'submit-to-google-sheet'>
+                          <textarea type="text" name="Name " placeholder="Your Name" required ></textarea>
+                          <textarea  type="email" name="Email " placeholder="Your Email" required></textarea>
+                          <textarea name="Message" rows = "6" placeholder="Your Message"></textarea>
+                          <button type = "Submit" class = "btn">Submit</button>
+                      </form>
+                      <span id ="msg"></span>
+                  </div>
+                  
+            
+          </div>
+      </div>
+       
+     </div>
+   </div> 
+ <script src="https://kit.fontawesome.com/a52bd45550.js" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src= "./script.js"></script>/
+</body>
+</html>
+
